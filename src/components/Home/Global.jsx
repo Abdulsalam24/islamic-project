@@ -25,10 +25,10 @@ const Global = () => {
   return (
     <section className='global'>
             <div className="global-container">
-            <div className="home-headings">
-              <h3>
-                <i>icon</i> GLOBAL CAMPAIGNS
-              </h3>
+            <div className="global-heading heading">
+              <h1>
+                GLOBAL CAMPAIGNS
+              </h1>
             </div>
             <div className="global-carousel">
                 {
@@ -37,9 +37,9 @@ const Global = () => {
                             <div className="list-img">
                                 <img src={global.img} alt={global.text}/>
                                 <div className="list-text">
-                                    <h4>
+                                    <h1>
                                         {global.text}
-                                    </h4>
+                                    </h1>
                                 </div>
                             </div>
                         </div>

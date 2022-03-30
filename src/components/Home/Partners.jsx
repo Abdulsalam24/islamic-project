@@ -13,10 +13,10 @@ const Partners = () => {
   return (
     <section className='partners'> 
         <div className="container">
-            <div className="home-headings">
-              <h3>
+            <div className="heading">
+              <h1>
                 OUR PARTNERS
-              </h3>
+              </h1>
             </div>
 
             <div className="partners-carousel">

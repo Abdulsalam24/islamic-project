@@ -32,10 +32,10 @@ const Impact = () => {
   return (
     <section className='impact'>
         <div className="container">
-            <div className="home-headings">
-              <h3>
+            <div className="heading">
+              <h1>
                 OUR IMPACT
-              </h3>
+              </h1>
             </div>
 
             <div className="lists">

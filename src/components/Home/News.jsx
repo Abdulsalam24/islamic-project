@@ -33,10 +33,10 @@ const News = () => {
             <div className="background-heading">
                 <h1>WORLD NEWS</h1>
             </div>
-            <div className="home-headings">
-              <h3>
-                <i>icon</i> IR WORLD NEWS
-              </h3>
+            <div className="news-heading heading">
+              <h1>
+                IR WORLD NEWS
+              </h1>
             </div>
 
             <div className="lists">
@@ -47,7 +47,7 @@ const News = () => {
                         <img src={news.img} alt="" />
                     </div>
                     <div className="list-text">
-                        <h4>{news.text}</h4>
+                        <h3>{news.text}</h3>
                     </div>
                     <div className="list-date">
                       <p>

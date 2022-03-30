@@ -37,10 +37,10 @@ const Focus = () => {
   return (
     <section className='focus'>
         <div className="container">
-            <div className="home-headings">
-              <h3>
-                <i>icon</i> FOCUS AREAS
-              </h3>
+            <div className="focus-heading heading">
+              <h1>
+                FOCUS AREAS
+              </h1>
             </div>
 
             <div className="focus-grid">
@@ -49,8 +49,9 @@ const Focus = () => {
                         <img src={single.img} alt={single.heading} />
                     </div>
                     <div className="focus-text">
-                        <h4>{single.heading}</h4>
+                        <h2>{single.heading}</h2>
                         <p>{single.text}</p>
+                        <a href="">{single.button}</a>
                     </div>
                 </div>
 
@@ -62,7 +63,7 @@ const Focus = () => {
                                 <img src={focus.img} alt={focus.heading} />
                             </div>
                             <div className="focus-text list-text">
-                                    <h4>{focus.heading}</h4>
+                                    <h3>{focus.heading}</h3>
                             </div>
                         </div>
                     ))

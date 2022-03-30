@@ -32,10 +32,10 @@ const WorldWide = () => {
   return (
     <section className='worldwide'>
         <div className="container">
-            <div className="home-headings">
-              <h3>
-              <i>icon</i> STRATEGIC BUSINESS UNITS
-              </h3>
+            <div className="worldwide-heading heading">
+              <h1>
+                STRATEGIC BUSINESS UNITS
+              </h1>
             </div>
 
             <div className="lists">
@@ -45,10 +45,11 @@ const WorldWide = () => {
                             <div className="list-img">
                                 <img src={world.img} alt={world.text}/>
                                 <div className="list-text">
-                                    <h4>
+                                    <h2>
                                         {world.heading}
-                                    </h4>
+                                    </h2>
                                     <p>{world.link}</p>
+                                    
                                 </div>
                             </div>
                         </div>
