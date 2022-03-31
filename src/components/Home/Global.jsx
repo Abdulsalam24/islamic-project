@@ -1,8 +1,8 @@
 import React from 'react'
 
 import img1 from '../../assets/img/globallist-img.jpg'
-import img2 from '../../assets/img/globallist-img2.jpg'
-import img3 from '../../assets/img/globallist-img3.jpg'
+// import img2 from '../../assets/img/globallist-img2.jpg'
+// import img3 from '../../assets/img/globallist-img3.jpg'
 
 const Global = () => {
     const globalList = [
@@ -24,7 +24,7 @@ const Global = () => {
     ]
   return (
     <section className='global'>
-            <div className="global-container">
+            <div className="container">
             <div className="global-heading heading">
               <h1>
                 GLOBAL CAMPAIGNS

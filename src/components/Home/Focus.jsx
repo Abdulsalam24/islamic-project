@@ -58,8 +58,8 @@ const Focus = () => {
                 <div className="lists">
                 {
                     focusList.map(focus => (
-                        <div className='list focus' key={focus.id}>
-                            <div className="focus-img">
+                        <div className='list' key={focus.id}>
+                            <div className="focus-img list-img">
                                 <img src={focus.img} alt={focus.heading} />
                             </div>
                             <div className="focus-text list-text">

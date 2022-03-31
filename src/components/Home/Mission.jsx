@@ -12,7 +12,7 @@ const Mission = () => {
         backgroundPosition: 'center',
         backgroundSize: 'cover'
     }}>
-        <div className="mission-text">
+        <div className="mission-text container">
             <h1>
                 IRW MISSION
             </h1>
