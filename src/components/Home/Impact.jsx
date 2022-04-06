@@ -38,7 +38,7 @@ const Impact = () => {
               </h1>
             </div>
 
-            <div className="lists">
+            <div className="impact-list lists">
               {
                 impactList.map(impact => (
                   <div className='list' key={impact.id}>

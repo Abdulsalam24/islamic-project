@@ -25,15 +25,15 @@ const Global = () => {
   return (
     <section className='global'>
             <div className="container">
-            <div className="global-heading heading">
-              <h1>
-                GLOBAL CAMPAIGNS
-              </h1>
-            </div>
+                <div className="global-heading heading">
+                <h1>
+                    GLOBAL CAMPAIGNS
+                </h1>
+                </div>
             <div className="global-carousel">
                 {
                     globalList.map(global => (
-                        <div className='list' key={global.id}>
+                        <div className='global-list list' key={global.id}>
                             <div className="list-img">
                                 <img src={global.img} alt={global.text}/>
                                 <div className="list-text">

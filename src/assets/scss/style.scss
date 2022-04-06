@@ -11,3 +11,16 @@
     --black: #86888c;
     --red: #c4000e;
 }
+
+.blue {
+    color: var(--blue);
+}
+
+
+html {
+    font-size: 10px !important;
+}
+
+body {
+    line-height: 2.4rem !important;
+}

@@ -6,6 +6,7 @@ import App from './App';
 import './assets/scss/style.scss';
 
 import './assets/scss/home.scss';
+import './assets/scss/about.scss';
 
 
 

@@ -10,7 +10,7 @@ import WorldWide from '../components/Home/WorldWide'
 
 const Home = () => {
   return (
-    <div>
+    <>
         <Header/>
         <News/>
         <Global/>
@@ -19,7 +19,7 @@ const Home = () => {
         <Impact/>
         <WorldWide/>
         <Partners/>
-    </div>
+    </>
   )
 }
 

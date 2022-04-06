@@ -1,13 +1,4 @@
-html {
-    font-size: 10px !important;
-}
 
-//   html,body{
-//       height: 100%;
-//   }
-body {
-    line-height: 2.4rem !important;
-}
 
 h2 {
     line-height: 2.9rem !important;
@@ -54,10 +45,6 @@ button {
     font-size: 1.6rem !important;
     border: none;
     outline: none;
-}
-
-.blue {
-    color: var(--blue);
 }
 
 .flex {
@@ -227,7 +214,6 @@ nav {
 //     padding-top: 8.7rem;
 // }
 
-.about,
 .media {
     height: 100vh;
     background-color: #2e3858;
@@ -245,7 +231,6 @@ header {
                 }
             }
         }
-
     }
 }
 
@@ -296,9 +281,11 @@ header {
         width: 100%;
     }
         .global-carousel {
-            .list {
+            .global-list {
                 .list-img {
                     position: relative;
+                    max-width: 500px;
+                    margin: auto;
                     .list-text {
                         position: absolute;
                         width: 50%;
@@ -353,7 +340,7 @@ header {
 
         }
         @media (min-width : 400px) {
-            .lists {
+            .focus-list {
                 .list {
                     display: flex;
                     .list-img {
@@ -396,7 +383,7 @@ header {
 }
 
 .impact {
-    .lists {
+    .impact-list {
         .list {
             box-shadow: none;
             text-align: center !important;
@@ -421,7 +408,7 @@ header {
 
 .worldwide {
     background-color: #f2f2f2;
-    .lists {
+    .worldwide-list {
         .list {
             box-shadow: none;
             position: relative;
@@ -628,14 +615,16 @@ footer {
                     padding: 4rem 3rem;
                 }
             }
-            .lists {
+            .focus-list {
                 flex-direction: row;
+                justify-content: space-between;
                 background-color: #E3E3E3;
+                gap: 2rem;
                 .list {
-      
                     box-shadow: none;
                     position: relative;
                     display: flex;
+                    flex-basis: 100%;
                     .list-img {
                         width: 100%;
                     }
@@ -662,7 +651,7 @@ footer {
     }
 
     .impact {
-        .lists {
+        .impact-list {
             flex-direction: row;
             justify-content: space-between !important;
             align-items: baseline;
@@ -675,7 +664,7 @@ footer {
     
 
     .worldwide {
-        .lists {
+        .worldwide-list {
             margin-bottom: -14rem;
             box-shadow: 3rem 3rem 0 1rem #efefef;
             display: grid;
@@ -706,13 +695,7 @@ footer {
     .partners{
         padding-top: 14rem;
     }
-    // .lists {
-    //     flex-direction: row;
-    //     flex-wrap: wrap;
-    //     .list {
-    //         width: 47%;
-    //     }
-    //   }
+    
     footer {
         h3 {
             font-size: 1.6rem;
@@ -790,25 +773,6 @@ footer {
     }
 
     .news {
-        // .lists{
-        //     display: flex;
-        //     flex-direction: column;
-        //     gap: 30px;
-        //     .list{
-        //         box-shadow: 1.2rem .8rem 2rem rgb(212, 212, 212);
-        //         .list-text{
-        //             padding: 4rem 1.5rem;
-        //         }
-        //         .list-date{
-        //             border-top: 2px solid rgb(235, 235, 235);
-        //             padding: 1.5rem 1.5rem;
-        //             p{
-        //                 font-size: 1.4rem;
-        //             }
-        //         }
-
-        //     }
-        // }
         .news-btn {
             text-align: right;
         }

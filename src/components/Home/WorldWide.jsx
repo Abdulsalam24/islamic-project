@@ -38,7 +38,7 @@ const WorldWide = () => {
               </h1>
             </div>
 
-            <div className="lists">
+            <div className="worldwide-list lists">
                 {
                     worldList.map(world => (
                         <div className='list' key={world.id}>

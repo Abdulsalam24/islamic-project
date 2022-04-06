@@ -55,7 +55,7 @@ const Focus = () => {
                     </div>
                 </div>
 
-                <div className="lists">
+                <div className="focus-list lists">
                 {
                     focusList.map(focus => (
                         <div className='list' key={focus.id}>
