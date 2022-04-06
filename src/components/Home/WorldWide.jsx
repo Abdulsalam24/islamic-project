@@ -49,7 +49,6 @@ const WorldWide = () => {
                                         {world.heading}
                                     </h2>
                                     <p>{world.link}</p>
-                                    
                                 </div>
                             </div>
                         </div>
