@@ -54,10 +54,10 @@ const Article = () => {
                     Close to the communities we serve, we work hard to understand their culture and needs and gain their trust. Our proximity means we can often respond swiftly to emergencies and work in areas that other organisations cannot access.
                 </p>
             </div>
-            <div className="value">
+            <div className="wrapper">
             {
                 valueList.map(value => (
-                    <div key={value.h2}>
+                    <div className='value' key={value.h2}>
                         <div className="img">
                             <img src={value.img} alt="image1" />
                             <span>{value.span}</span>
@@ -78,7 +78,14 @@ const Article = () => {
                 ))
             }
             </div>
+            <div className="btn">
+                <button className='share'>share</button>
+                <button className='tweet'>tweet</button>
+                <button className='share'>share</button>
+                <button className='mail'>mail</button>
+            </div>
         </div>
+
     </section>
   )
 }

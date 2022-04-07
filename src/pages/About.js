@@ -7,8 +7,8 @@ const About = () => {
   return (
     <div className='about'>
       <Header/>
-      <SideBar/>
-      <Article/>
+        <SideBar/>
+        <Article/>
     </div>
   )
 }

@@ -195,16 +195,6 @@ nav {
 
 }
 
-.container {
-    max-width: 1100px;
-    width: 90% !important;
-    margin: auto;
-    padding: 2rem 0 3.5rem;
-    img {
-        width: 100%;
-    }
-}
-
 .max-width {
     max-width: 1400px;
     margin: auto;
@@ -281,16 +271,23 @@ header {
         width: 100%;
     }
         .global-carousel {
+            display: flex !important;
             .global-list {
+                outline: solid teal;
                 .list-img {
-                    position: relative;
-                    max-width: 500px;
-                    margin: auto;
+                    position: relative !important;
+                    max-width: 100% !important;
+                    margin: auto !important;
+                    img{
+                        height: 500px;
+                        max-height: 800px;
+                        object-fit: cover !important;
+                    }
                     .list-text {
-                        position: absolute;
-                        width: 50%;
-                        bottom: 50px;
-                        transform: translateX(40%);
+                        position: absolute !important;
+                        width: 50% !important;
+                        bottom: 50px !important;
+                        transform: translateX(20%)!important;
                         h1 {
                             font-size: 4.6rem;
                             line-height: 4rem;

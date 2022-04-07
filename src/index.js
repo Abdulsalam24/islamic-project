@@ -4,14 +4,11 @@ import ReactDOM from 'react-dom';
 import App from './App';
 
 import './assets/scss/style.scss';
-
 import './assets/scss/home.scss';
 import './assets/scss/about.scss';
 
-
-
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle'
 
 import 'font-awesome/css/font-awesome.css'
 
